@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542379882A40F6B700E72F13 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542379872A40F6B700E72F13 /* EmptyView.swift */; };
+		544F0EE82A333EA400C4590C /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F0EE72A333EA400C4590C /* SetupView.swift */; };
+		54550A6E2A3133100047D30F /* CalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54550A6D2A3133100047D30F /* CalManager.swift */; };
+		54550A762A31F5410047D30F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54550A752A31F5410047D30F /* InfoView.swift */; };
+		545A4EF92A44B8EB00B5FF68 /* iPadInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A4EF82A44B8EB00B5FF68 /* iPadInfoView.swift */; };
+		545C15F72A0FEA85003B1364 /* KnightifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C15F62A0FEA85003B1364 /* KnightifyApp.swift */; };
+		545C15F92A0FEA85003B1364 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C15F82A0FEA85003B1364 /* ContentView.swift */; };
+		545C15FB2A0FEA86003B1364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545C15FA2A0FEA86003B1364 /* Assets.xcassets */; };
+		545C15FE2A0FEA86003B1364 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545C15FD2A0FEA86003B1364 /* Preview Assets.xcassets */; };
+		545C16002A0FEA86003B1364 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C15FF2A0FEA86003B1364 /* Persistence.swift */; };
+		545C16032A0FEA86003B1364 /* Knightify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 545C16012A0FEA86003B1364 /* Knightify.xcdatamodeld */; };
+		545C16112A102710003B1364 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C16102A102710003B1364 /* TodayView.swift */; };
+		545C161C2A10635D003B1364 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C161A2A10635D003B1364 /* Item+CoreDataClass.swift */; };
+		545C161D2A10635D003B1364 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C161B2A10635D003B1364 /* Item+CoreDataProperties.swift */; };
+		545C161F2A115748003B1364 /* AssignmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545C161E2A115748003B1364 /* AssignmentsView.swift */; };
+		548FDE532A6864C9009EC6A2 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548FDE522A6864C9009EC6A2 /* EventsView.swift */; };
+		549B18A82A7FBA90006CE85B /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549B18A72A7FBA90006CE85B /* AgendaView.swift */; };
+		549B18AA2A7FC77F006CE85B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549B18A92A7FC77F006CE85B /* DataController.swift */; };
+		549B18AC2A7FCEAE006CE85B /* LeftTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549B18AB2A7FCEAE006CE85B /* LeftTextView.swift */; };
+		54ACDA582A40C358004B8DB1 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ACDA572A40C358004B8DB1 /* SplashView.swift */; };
+		54EC57922A66293500FC232D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC57912A66293500FC232D /* AboutView.swift */; };
+		54F0F1E52A41277B00FA1719 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F0F1E42A41277B00FA1719 /* ErrorView.swift */; };
+		54FEFCA12A45EFE70047C840 /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FEFCA02A45EFE70047C840 /* TermsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		542379872A40F6B700E72F13 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		544F0EE72A333EA400C4590C /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		54550A6D2A3133100047D30F /* CalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalManager.swift; sourceTree = "<group>"; };
+		54550A752A31F5410047D30F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		545A4EF82A44B8EB00B5FF68 /* iPadInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadInfoView.swift; sourceTree = "<group>"; };
+		545C15F32A0FEA85003B1364 /* SMR One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMR One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		545C15F62A0FEA85003B1364 /* KnightifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightifyApp.swift; sourceTree = "<group>"; };
+		545C15F82A0FEA85003B1364 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		545C15FA2A0FEA86003B1364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		545C15FD2A0FEA86003B1364 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		545C15FF2A0FEA86003B1364 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		545C16022A0FEA86003B1364 /* Knightify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Knightify.xcdatamodel; sourceTree = "<group>"; };
+		545C160B2A0FF0CB003B1364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		545C16102A102710003B1364 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		545C161A2A10635D003B1364 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		545C161B2A10635D003B1364 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		545C161E2A115748003B1364 /* AssignmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsView.swift; sourceTree = "<group>"; };
+		548FDE522A6864C9009EC6A2 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		549B18A72A7FBA90006CE85B /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
+		549B18A92A7FC77F006CE85B /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		549B18AB2A7FCEAE006CE85B /* LeftTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTextView.swift; sourceTree = "<group>"; };
+		54ACDA572A40C358004B8DB1 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		54EC57912A66293500FC232D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		54F0F1E42A41277B00FA1719 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		54FEFCA02A45EFE70047C840 /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		545C15F02A0FEA85003B1364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		545C15EA2A0FEA85003B1364 = {
+			isa = PBXGroup;
+			children = (
+				545C161A2A10635D003B1364 /* Item+CoreDataClass.swift */,
+				545C161B2A10635D003B1364 /* Item+CoreDataProperties.swift */,
+				545C15F52A0FEA85003B1364 /* Knightify */,
+				545C15F42A0FEA85003B1364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		545C15F42A0FEA85003B1364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				545C15F32A0FEA85003B1364 /* SMR One.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		545C15F52A0FEA85003B1364 /* Knightify */ = {
+			isa = PBXGroup;
+			children = (
+				545C160B2A0FF0CB003B1364 /* Info.plist */,
+				545C15F62A0FEA85003B1364 /* KnightifyApp.swift */,
+				54550A6D2A3133100047D30F /* CalManager.swift */,
+				545C15F82A0FEA85003B1364 /* ContentView.swift */,
+				54ACDA572A40C358004B8DB1 /* SplashView.swift */,
+				544F0EE72A333EA400C4590C /* SetupView.swift */,
+				54FEFCA02A45EFE70047C840 /* TermsView.swift */,
+				545C16102A102710003B1364 /* TodayView.swift */,
+				548FDE522A6864C9009EC6A2 /* EventsView.swift */,
+				545C161E2A115748003B1364 /* AssignmentsView.swift */,
+				549B18A72A7FBA90006CE85B /* AgendaView.swift */,
+				542379872A40F6B700E72F13 /* EmptyView.swift */,
+				549B18AB2A7FCEAE006CE85B /* LeftTextView.swift */,
+				54F0F1E42A41277B00FA1719 /* ErrorView.swift */,
+				54EC57912A66293500FC232D /* AboutView.swift */,
+				54550A752A31F5410047D30F /* InfoView.swift */,
+				545A4EF82A44B8EB00B5FF68 /* iPadInfoView.swift */,
+				545C15FA2A0FEA86003B1364 /* Assets.xcassets */,
+				545C15FF2A0FEA86003B1364 /* Persistence.swift */,
+				549B18A92A7FC77F006CE85B /* DataController.swift */,
+				545C16012A0FEA86003B1364 /* Knightify.xcdatamodeld */,
+				545C15FC2A0FEA86003B1364 /* Preview Content */,
+			);
+			path = Knightify;
+			sourceTree = "<group>";
+		};
+		545C15FC2A0FEA86003B1364 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				545C15FD2A0FEA86003B1364 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		545C15F22A0FEA85003B1364 /* SMR One */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545C16062A0FEA86003B1364 /* Build configuration list for PBXNativeTarget "SMR One" */;
+			buildPhases = (
+				545C15EF2A0FEA85003B1364 /* Sources */,
+				545C15F02A0FEA85003B1364 /* Frameworks */,
+				545C15F12A0FEA85003B1364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SMR One";
+			productName = Knightify;
+			productReference = 545C15F32A0FEA85003B1364 /* SMR One.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		545C15EB2A0FEA85003B1364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					545C15F22A0FEA85003B1364 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 545C15EE2A0FEA85003B1364 /* Build configuration list for PBXProject "SMR One" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 545C15EA2A0FEA85003B1364;
+			productRefGroup = 545C15F42A0FEA85003B1364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				545C15F22A0FEA85003B1364 /* SMR One */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		545C15F12A0FEA85003B1364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545C15FE2A0FEA86003B1364 /* Preview Assets.xcassets in Resources */,
+				545C15FB2A0FEA86003B1364 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		545C15EF2A0FEA85003B1364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FEFCA12A45EFE70047C840 /* TermsView.swift in Sources */,
+				549B18AC2A7FCEAE006CE85B /* LeftTextView.swift in Sources */,
+				545C161F2A115748003B1364 /* AssignmentsView.swift in Sources */,
+				54EC57922A66293500FC232D /* AboutView.swift in Sources */,
+				549B18A82A7FBA90006CE85B /* AgendaView.swift in Sources */,
+				542379882A40F6B700E72F13 /* EmptyView.swift in Sources */,
+				549B18AA2A7FC77F006CE85B /* DataController.swift in Sources */,
+				54ACDA582A40C358004B8DB1 /* SplashView.swift in Sources */,
+				545C16002A0FEA86003B1364 /* Persistence.swift in Sources */,
+				545C15F92A0FEA85003B1364 /* ContentView.swift in Sources */,
+				545C161C2A10635D003B1364 /* Item+CoreDataClass.swift in Sources */,
+				545C161D2A10635D003B1364 /* Item+CoreDataProperties.swift in Sources */,
+				545C16112A102710003B1364 /* TodayView.swift in Sources */,
+				545C15F72A0FEA85003B1364 /* KnightifyApp.swift in Sources */,
+				545C16032A0FEA86003B1364 /* Knightify.xcdatamodeld in Sources */,
+				54550A762A31F5410047D30F /* InfoView.swift in Sources */,
+				54F0F1E52A41277B00FA1719 /* ErrorView.swift in Sources */,
+				544F0EE82A333EA400C4590C /* SetupView.swift in Sources */,
+				54550A6E2A3133100047D30F /* CalManager.swift in Sources */,
+				545A4EF92A44B8EB00B5FF68 /* iPadInfoView.swift in Sources */,
+				548FDE532A6864C9009EC6A2 /* EventsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		545C16042A0FEA86003B1364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		545C16052A0FEA86003B1364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		545C16072A0FEA86003B1364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"Knightify/Preview Content\"";
+				DEVELOPMENT_TEAM = 93QG8V394N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Knightify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SMR One";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "SMR One will use your calendar to populate information relevant to your day in-app. For example, events in the “My Classes” calendar will be used to display your daily schedule. Functionality such as this will not be available without calendar access.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "david-george.KLEO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		545C16082A0FEA86003B1364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"Knightify/Preview Content\"";
+				DEVELOPMENT_TEAM = 93QG8V394N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Knightify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SMR One";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "SMR One will use your calendar to populate information relevant to your day in-app. For example, events in the “My Classes” calendar will be used to display your daily schedule. Functionality such as this will not be available without calendar access.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "david-george.KLEO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		545C15EE2A0FEA85003B1364 /* Build configuration list for PBXProject "SMR One" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545C16042A0FEA86003B1364 /* Debug */,
+				545C16052A0FEA86003B1364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545C16062A0FEA86003B1364 /* Build configuration list for PBXNativeTarget "SMR One" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545C16072A0FEA86003B1364 /* Debug */,
+				545C16082A0FEA86003B1364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		545C16012A0FEA86003B1364 /* Knightify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				545C16022A0FEA86003B1364 /* Knightify.xcdatamodel */,
+			);
+			currentVersion = 545C16022A0FEA86003B1364 /* Knightify.xcdatamodel */;
+			path = Knightify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 545C15EB2A0FEA85003B1364 /* Project object */;
+}
